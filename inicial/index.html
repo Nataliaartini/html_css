@@ -14,7 +14,8 @@
         p{color: rgb(255, 68, 99); background-color: rgb(184, 184, 184);}
         #blue {background-color:rgb(134, 201, 255);}
         .imagemgit{width: 100px; height: 100px;}
-        blockquote {font-size: 18px;}
+        blockquote {font-size: 15px;}
+        h2 {color: teal; font-size: 25px;}
 
     </style>
 </head>
@@ -64,6 +65,19 @@
             </p>
         </code>
     </blockquote>
+    <h2>Usa tag pre pra manter espaçamento pre definido, útil pra códigos, por exemplo.</h2>
+    <pre>
+
+        class Cliente:
+            def __init__(self, nome, idade):
+                self.nome = nome
+                self.idade = idade
+                self.enderecos = []
+
+            def insere_endereco(self, cidade, estado):
+                self.enderecos.append(Endereco(cidade, estado))
+        </code>
+    </pre>
 </body>
 
 </html>
