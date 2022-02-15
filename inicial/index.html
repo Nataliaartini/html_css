@@ -14,33 +14,56 @@
         p{color: rgb(255, 68, 99); background-color: rgb(184, 184, 184);}
         #blue {background-color:rgb(134, 201, 255);}
         .imagemgit{width: 100px; height: 100px;}
+        blockquote {font-size: 18px;}
 
     </style>
 </head>
 
 <body>
-    <h1 id="heading" class="background-black">Título</h1>
+    <h1 id="heading" class="background-black">
+        Título
+    </h1>
+
     <p>Lorem <em>ipsum</em> dolor sit <b>amet</b> <u>consectetur</u>
         <a href="https://github.com/Nataliaartini" target="_blank" <i>adipisicing</i></a> elit
         <img class="imagemgit" src="https://github.githubassets.com/images/mona-loading-dark.gif" 
         alt="github"> 
     </p>
+
     <!-- em dá enfase a palavra no texto enquanto i só deixa em itálico -->
     <!-- u = underline na palavra do texto enquanto ins seria uma inserção -->
-    <h1 id="heading1" class="background-black">Teste</h1>
+
+    <h1 id="heading1" class="background-black">
+        Teste
+    </h1>
+
     <p id="blue">Lorem <del>alguma</del> <s>coisa</s> ipsum <ins>dolor</ins> sit <b>amet</b> 
         consectetur <strong>adipisicing</strong> elit
     </p>
+
     <!-- strong aumenta a importância da palavra no texto enquanto bold só deixa em negrito -->
     <!-- del tiraria a palavra do texto enquanto <s> só risca ela, assim como nos outros exemplos -->
+
         <br>
-    <p> 2<sup>5</sup> e também H<sub>2</sub>O! <br>
-        ESSA É MINHA CITAÇÃO:<br>
+    <p> 2<sup>5</sup> e também H<sub>2</sub>O! 
+        <br>
+        ESSA É MINHA CITAÇÃO:
+        <br>
         <q cite="https://github.com/">
             Serverless API functions written in NodeJS to fetch weather and places data using 
             DarkSky & Algolia Places API. This API is used in weather-react app.
         </q>
     </p>
+    <br>
+
+    <blockquote cite="https://validator.w3.org/nu/#textarea"> 
+        <hr>
+        <code>
+            <p>Um blockquote não deve ficar dentro de um parágrafo. <br>
+                Mas um parágrafo pode ficar dentro do blockquote
+            </p>
+        </code>
+    </blockquote>
 </body>
 
 </html>
