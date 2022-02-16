@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        table {
+            border-collapse: collapse;
+            font-size: 23px;
+            margin: 10px;
+            width: 800px;
+            text-transform: uppercase;
+        }
+
+        table caption {
+            margin: 5px;
+            color: rgb(219, 65, 38);
+        }
+
+        table td, table th {
+            font-size: x-large;
+            font-family: sans-serif;
+            border: 1px solid rgb(194, 194, 194);
+            padding: 5px;
+            text-align: left;
+        }
+
+        table tfoot, th {
+            background-color: #ddd;
+        }
+
+        .responsive-table {
+            max-width: 100%;
+            overflow: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="responsive-table">
+        <table>
+            <caption><strong>tabela de precos 2022</strong></caption>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>produto</th>
+                    <th>preco</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>roupa</td>
+                    <td>vestido</td>
+                    <td>R$65,00</td>
+                </tr>
+                <tr>
+                    <td colspan="3">outro setor</td>
+                </tr>
+                <tr>
+                    <td>acessorio</td>
+                    <td>brinco</td>
+                    <td>R$15,00</td>
+                </tr>
+                <tr>
+                    <td colspan="2">objetos avulsos</td>
+                    <td>R$30,00</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>fim</td>
+                    <td>fim</td>
+                    <td>total</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
+</body>
+</html>
