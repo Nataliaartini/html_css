@@ -1,0 +1,7 @@
+.box {
+    background-color: rgb(255, 50, 245);
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    margin: 25px 0 0 15px;
+}
