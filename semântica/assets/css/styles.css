@@ -141,10 +141,6 @@
     color: var(--text-color, rgb(128, 98, 0));
   }
   
-  .form-group ::placeholder {
-    color: var(--light-gray-color);
-  }
-  
   .footer {
     text-align: center;
     font-size: 1.6rem;
