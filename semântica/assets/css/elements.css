@@ -73,7 +73,7 @@
   }
 
   table tr:nth-child(even){
-    background: rgb(233, 214, 255);
+    background: rgb(219, 245, 255);
   }
   
   table caption {
@@ -91,5 +91,5 @@
   }
   
   tfoot td, table th {
-    background: rgb(223, 220, 240);
+    background: rgb(220, 225, 240);
   }
