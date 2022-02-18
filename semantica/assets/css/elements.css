@@ -78,9 +78,11 @@
   
   table caption {
     font-style: italic;
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-align: left;
     margin-bottom: 1rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px rgb(169, 112, 216);
   }
   
   table td, table th {

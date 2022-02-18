@@ -21,7 +21,7 @@
   }
   
   .top3-content {
-    max-width: 64rem;
+    max-width: 80rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -193,7 +193,6 @@
   
     .gallery-img img {
       width: 100%;
-      box-shadow: 15px 15px black;
     }
   
     .grid-one-content {
