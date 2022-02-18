@@ -193,6 +193,7 @@
   
     .gallery-img img {
       width: 100%;
+      box-shadow: 15px 15px black;
     }
   
     .grid-one-content {
